@@ -1,0 +1,19 @@
+<h3>News</h3>
+{{result3}}
+<br>
+<table class="newspaper-c" summary="Employee Pay Sheet">
+    <thead>
+    	<tr>
+        	<th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Photo</th>            
+        </tr>
+    </thead>
+    <tbody>
+    	<tr ng-repeat="n in listNews">
+        	<td>{{n.id}}</td>
+			<td>{{n.title}}</td>
+			<td><img src="images/{{n.photo}}" width="50" height="50"></img></td>          
+        </tr>        
+    </tbody>
+</table>

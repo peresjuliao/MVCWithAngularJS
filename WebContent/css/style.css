@@ -1,0 +1,13 @@
+.format_about_us {
+	color: red;	
+}
+
+.newspaper-c {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: 45px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #6cf;
+}

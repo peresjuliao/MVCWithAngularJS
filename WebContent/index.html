@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="UTF-8">
+		<title>MVC With AngularJS</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="scripts/js/angular.min.js"></script>
+		<script type="text/javascript" src="scripts/js/angular-route.min.js"></script>
+		<script type="text/javascript" src="scripts/app.js"></script>
+		<script type="text/javascript" src="scripts/controllers/homeController.js"></script>
+		<script type="text/javascript" src="scripts/controllers/aboutUsController.js"></script>
+		<script type="text/javascript" src="scripts/controllers/newsController.js"></script>
+		<link href="css/style.css" rel="stylesheet" type="style/css">
+	</head>
+	<body ng-controller="homeController">	
+		<a href="#/">Home</a> | <a href="#/about-us">About Us</a> |
+		<a href="#/news">News</a>
+		<br><br>
+		<div ng-view></div>
+		<br><br>
+		&copy; Peres Juliao 2016 				
+	</body>
+</html>
